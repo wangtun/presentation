@@ -1,0 +1,32 @@
+{
+  "name": "presentation",
+  "version": "1.0.0",
+  "description": "presentation",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "animation.css": "^0.1.0",
+    "eslint": "^4.9.0",
+    "gulp": "^3.9.1",
+    "http-server": "^0.10.0",
+    "jsdoc": "^3.5.5"
+  },
+  "scripts": {
+    "lint": "eslint --ignore-path .eslintignore ./apps ./scripts",
+    "lint:fix": "npm run lint -- --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangtun/presentation.git"
+  },
+  "keywords": [
+    "presentation"
+  ],
+  "author": "wangtun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangtun/presentation/issues"
+  },
+  "homepage": "https://github.com/wangtun/presentation#readme"
+}
